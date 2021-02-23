@@ -1,0 +1,77 @@
+:root{
+    --background_col_one:#094A79;
+    --text_color_one:#E5E5E5;
+    --text_color_two:#FFFFFF;      
+}
+html,body{
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container_one{
+    background-color: var(--background_col_one);
+    height: 35.3125rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_one h1{
+    color: var(--text_color_one); 
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+    line-height: 59px;       
+}
+.container_one span{
+    color: var(--text_color_two);
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 135px;
+    text-align: center;
+}
+.gradient_container{
+    position: absolute;
+    width: 1440px;
+    height: 463px;
+    top: 561px;
+    background: linear-gradient(180deg, #2E8692 0%, rgba(46, 134, 146, 0) 100%);
+    align-content: center;
+}
+.vector_container{
+    position: absolute;
+    margin-top: -0.3rem;
+}
+.vector_container h3{
+    text-align: center;
+    font-size: 2.1875rem;
+    line-height: 3.25rem;
+    font-weight: 500;
+    color: var(--text_color_one);
+    margin-top: -28.9375rem;
+}
+a.Button{
+    position: absolute;
+    background: #C4C4C4;
+    border-radius: 20px;
+    color: var(--background_col_one);
+    font-weight: 700;
+    line-height: 3.75rem;
+    font-size: 25px;
+    padding: 0 1rem;
+    display: inline-block;
+    text-decoration: none;         
+}
+.inner_container{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.Button{
+    margin-top: -350px;
+}

@@ -1,0 +1,143 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+:root{
+    --background_col_one:#094A79;
+    --text_color_one:#E5E5E5;
+    --text_color_two:#FFFFFF;
+    --text_color_three:#2E8692;      
+}
+html,body{
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+.nav_bar{
+    background-color: var(--background_col_one);
+    height: 123px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page_menu a{
+    color: var(--text_color_two);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 5px;
+    margin: 30px;
+}
+.page_menu a.active, .page_menu a:hover, .login_signup_button{
+    background: #C4C4C4;
+    border-radius: 20px;
+    color: var(--background_col_one);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0.7rem;
+}
+.login_signup_button a{
+    color: var(--background_col_one);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+}
+.search_box{
+    margin-left: 5rem;
+}
+.login_signup_button{
+    margin-right: 5rem;
+}
+.inner_container{
+    background-color: var(--text_color_one);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner_container a{
+    color: var(--background_col_one);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 5px;
+    margin: 30px;
+}
+.inner_container a.active, .inner_container a:hover{
+    background: var(--background_col_one);
+    border-radius: 20px;
+    color: var(--text_color_one);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0.9rem;
+}
+.credential_holder{
+    background: rgba(229, 229, 229, 0.54);
+    border: 1px solid #D4D4D4;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    position: absolute;
+    width: 468px;
+    height: 615px;
+    left: 700px;    
+    top: 292px; 
+    position: absolute;
+    padding-left: 39px;
+    margin-bottom: 30px;    
+}
+.credential_holder h3{
+    color: var(--background_col_one);
+    font-size: 40px;    
+}
+.username_holder, .password_holder{
+    background: var(--text_color_two);
+    border: 1px solid #094A79;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 386px;
+    height: 45px;
+    padding-left: 1rem;
+    margin-top: -30px;
+}
+.username_holder input,.password_holder input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #514343;
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.Button{
+    background: var(--background_col_one);
+    border-radius: 20px;
+    width: 288px;
+    height: 57px;
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 2.7rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center; 
+    vertical-align: middle;
+}
+.Forgot_Password{
+    color: var(--text_color_three);
+    text-decoration: none;
+}
+.credential_holder p{
+    color: var(--text_color_three);
+    margin-top: 100px;
+}
+.Signup{
+    color: var(--text_color_three);
+    text-decoration: none;
+}
+.extras{
+    text-align: left;
+    margin-left: 250px;
+}
+.extras a:hover{
+    font-weight: 700;
+}

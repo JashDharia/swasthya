@@ -1,0 +1,51 @@
+.body{
+	padding-bottom: 20px;
+}
+
+.container{
+	width: 100%;
+	margin:0 auto; 
+}
+
+.profile-details{
+	margin-top: 1em;
+	margin: auto;
+	width: 50%;
+}
+
+.name{
+	margin:auto;
+	vertical-align: middle;
+}
+
+.prof-image{
+  max-height: 150px;
+  max-width: 100%;
+}
+.prof-image img{
+	max-height: 100px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.clinic-info{
+	float: right;
+}
+.clinic-name{
+	vertical-align: center;
+}
+.clinic-delete{
+	float: right;
+}
+.clinic-delete button{
+	float: right;
+}
+.clinic-details{
+	margin-bottom: -12em;
+	float: left;
+}
+
+/*.add-clinic{
+	padding-top: 20px;
+	margin-top: 15em;
+	float: left;
+}*/

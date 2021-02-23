@@ -1,0 +1,40 @@
+<?php include('userData.php'); ?>
+<?php
+ if (!isset($_COOKIE['profile_id'])) { 
+    setcookie('profile_id', "0", time() + (86400 * 30), '/');
+    echo "<script>windows.alert('by using our site, you agree to our T&C')</script>";
+    } 
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home_page_style.css">
+    <title>Swasthya</title>
+</head>
+<body>   
+    <div class="nav_bar">
+      <div class="search_box">
+        <img src="images/Search icon.png" alt="search">
+      </div>
+      <nav class="page_menu"> 
+        <a href="#" class="active">Doctors</a>
+        <a href="#">Clinics</a>
+        <a href="#">Hospitals</a>
+        <a href="#">Fitness Trainers</a>
+        <a href="#">Mental Health</a>
+      </nav>
+      <div class="login_signup_button"> 
+        <a href="doctor_lp.html">Login/Signup</a>        
+      </div>
+    </div>  
+    <div class="welcome_text">
+      <img src="images/Hey there!.jpg" alt="Hey there!">
+    </div>    
+    <div class="hero_image">
+      <img src="images/heroDoctor.jpg" alt="doctor">
+    </div>        
+</body>
+</html>
